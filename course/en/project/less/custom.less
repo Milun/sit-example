@@ -22,3 +22,29 @@
 }
 
 /************************************/
+
+.c-conversation {
+
+	// BUGFIX: Fixes scroll-wheel not working in negative spaces.
+	position: relative;
+	overflow: hidden;
+
+	span + span {
+		margin-top: 1rem;
+	}
+
+	.c-width-80-diana {
+		display: block;
+		width: 80%;
+		float: left;
+		margin-left: 15%;
+	}
+	
+	.c-width-80-seller {
+		display: block;
+		width: 80%;
+		float: right;
+		margin-right: 15%;
+	}
+
+}
